@@ -1,0 +1,14 @@
+﻿@model Book
+
+<h2>Book Details</h2>
+
+<div>
+    <h4>Title: @Model.Title</h4>
+    <h4>Author: @Model.Author</h4>
+    <h4>Year: @Model.Year</h4>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</p>
