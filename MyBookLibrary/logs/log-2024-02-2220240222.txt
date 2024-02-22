@@ -1,0 +1,51 @@
+2024-02-22 16:02:47.655 +11:00 [INF] User profile is available. Using 'C:\Users\jitus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-22 16:02:47.838 +11:00 [INF] Now listening on: https://localhost:7110
+2024-02-22 16:02:47.840 +11:00 [INF] Now listening on: http://localhost:5249
+2024-02-22 16:02:47.849 +11:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-22 16:02:47.852 +11:00 [INF] Hosting environment: Development
+2024-02-22 16:02:47.854 +11:00 [INF] Content root path: R:\Jitendra Resume\Bupa\n\BookProject\MyBookLibrary\
+2024-02-22 16:02:48.418 +11:00 [INF] Request starting HTTP/2 GET https://localhost:7110/ - -
+2024-02-22 16:02:48.476 +11:00 [INF] Executing endpoint 'MyBookLibrary.Controllers.BooksController.Index (MyBookLibrary)'
+2024-02-22 16:02:48.515 +11:00 [INF] Route matched with {action = "Index", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyBookLibrary.Controllers.BooksController (MyBookLibrary).
+2024-02-22 16:02:48.682 +11:00 [INF] LoadBooksFromDataFile executed
+2024-02-22 16:02:48.852 +11:00 [INF] Executing ViewResult, running view Index.
+2024-02-22 16:02:49.021 +11:00 [INF] Executed ViewResult - view Index executed in 169.4533ms.
+2024-02-22 16:02:49.029 +11:00 [INF] Executed action MyBookLibrary.Controllers.BooksController.Index (MyBookLibrary) in 513.6102ms
+2024-02-22 16:02:49.029 +11:00 [INF] Executed endpoint 'MyBookLibrary.Controllers.BooksController.Index (MyBookLibrary)'
+2024-02-22 16:02:49.066 +11:00 [INF] Request finished HTTP/2 GET https://localhost:7110/ - - - 200 - text/html;+charset=utf-8 651.8492ms
+2024-02-22 16:02:49.077 +11:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - -
+2024-02-22 16:02:49.083 +11:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 5.9276ms
+2024-02-22 16:02:49.144 +11:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - -
+2024-02-22 16:02:49.165 +11:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.2585ms
+2024-02-22 16:02:50.490 +11:00 [INF] Request starting HTTP/2 GET https://localhost:7110/Books/Create - -
+2024-02-22 16:02:50.493 +11:00 [INF] Executing endpoint 'MyBookLibrary.Controllers.BooksController.Create (MyBookLibrary)'
+2024-02-22 16:02:50.494 +11:00 [INF] Route matched with {action = "Create", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller MyBookLibrary.Controllers.BooksController (MyBookLibrary).
+2024-02-22 16:02:50.494 +11:00 [INF] Executing ViewResult, running view Create.
+2024-02-22 16:02:50.537 +11:00 [INF] Executed ViewResult - view Create executed in 42.8682ms.
+2024-02-22 16:02:50.537 +11:00 [INF] Executed action MyBookLibrary.Controllers.BooksController.Create (MyBookLibrary) in 43.2105ms
+2024-02-22 16:02:50.537 +11:00 [INF] Executed endpoint 'MyBookLibrary.Controllers.BooksController.Create (MyBookLibrary)'
+2024-02-22 16:02:50.539 +11:00 [INF] Request finished HTTP/2 GET https://localhost:7110/Books/Create - - - 200 - text/html;+charset=utf-8 48.2874ms
+2024-02-22 16:02:50.553 +11:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - -
+2024-02-22 16:02:50.553 +11:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 0.3291ms
+2024-02-22 16:02:50.567 +11:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - -
+2024-02-22 16:02:50.574 +11:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.9910ms
+2024-02-22 16:02:59.450 +11:00 [INF] Request starting HTTP/2 POST https://localhost:7110/Books/Create application/x-www-form-urlencoded 214
+2024-02-22 16:02:59.452 +11:00 [INF] Executing endpoint 'MyBookLibrary.Controllers.BooksController.Create (MyBookLibrary)'
+2024-02-22 16:02:59.469 +11:00 [INF] Route matched with {action = "Create", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(MyBookLibrary.Models.Book) on controller MyBookLibrary.Controllers.BooksController (MyBookLibrary).
+2024-02-22 16:02:59.494 +11:00 [INF] SaveBooksToDataFile executed
+2024-02-22 16:02:59.532 +11:00 [INF] Executing RedirectResult, redirecting to /.
+2024-02-22 16:02:59.532 +11:00 [INF] Executed action MyBookLibrary.Controllers.BooksController.Create (MyBookLibrary) in 62.7333ms
+2024-02-22 16:02:59.532 +11:00 [INF] Executed endpoint 'MyBookLibrary.Controllers.BooksController.Create (MyBookLibrary)'
+2024-02-22 16:02:59.532 +11:00 [INF] Request finished HTTP/2 POST https://localhost:7110/Books/Create application/x-www-form-urlencoded 214 - 302 0 - 82.0790ms
+2024-02-22 16:02:59.536 +11:00 [INF] Request starting HTTP/2 GET https://localhost:7110/ - -
+2024-02-22 16:02:59.536 +11:00 [INF] Executing endpoint 'MyBookLibrary.Controllers.BooksController.Index (MyBookLibrary)'
+2024-02-22 16:02:59.537 +11:00 [INF] Route matched with {action = "Index", controller = "Books"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyBookLibrary.Controllers.BooksController (MyBookLibrary).
+2024-02-22 16:02:59.537 +11:00 [INF] Executing ViewResult, running view Index.
+2024-02-22 16:02:59.542 +11:00 [INF] Executed ViewResult - view Index executed in 5.6478ms.
+2024-02-22 16:02:59.542 +11:00 [INF] Executed action MyBookLibrary.Controllers.BooksController.Index (MyBookLibrary) in 5.8258ms
+2024-02-22 16:02:59.542 +11:00 [INF] Executed endpoint 'MyBookLibrary.Controllers.BooksController.Index (MyBookLibrary)'
+2024-02-22 16:02:59.544 +11:00 [INF] Request finished HTTP/2 GET https://localhost:7110/ - - - 200 - text/html;+charset=utf-8 7.7614ms
+2024-02-22 16:02:59.563 +11:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_vs/browserLink - -
+2024-02-22 16:02:59.564 +11:00 [INF] Request starting HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - -
+2024-02-22 16:02:59.564 +11:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 0.5813ms
+2024-02-22 16:02:59.567 +11:00 [INF] Request finished HTTP/2 GET https://localhost:7110/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.4076ms

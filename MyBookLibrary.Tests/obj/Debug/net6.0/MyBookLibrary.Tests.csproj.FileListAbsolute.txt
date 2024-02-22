@@ -220,3 +220,12 @@ R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\obj\Debug\net6.0\refint\
 R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\obj\Debug\net6.0\MyBookLibrary.Tests.pdb
 R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\obj\Debug\net6.0\MyBookLibrary.Tests.genruntimeconfig.cache
 R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\obj\Debug\net6.0\ref\MyBookLibrary.Tests.dll
+R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\bin\Debug\net6.0\Serilog.dll
+R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+R:\Jitendra Resume\Bupa\BookLibrary\MyBookLibrary.Tests\bin\Debug\net6.0\Serilog.Sinks.File.dll

@@ -3,6 +3,7 @@ using MyBookLibrary.Models;
 using Xunit;
 using MyBookLibrary.Services;
 using MyBookLibrary.Repositories;
+using Microsoft.Extensions.Logging;
 
 namespace MyBookLibrary.Tests
 {
@@ -27,7 +28,9 @@ namespace MyBookLibrary.Tests
             var mockBookRepository = new Mock<IBookRepository>();
             mockBookRepository.Setup(repo => repo.GetAll()).Returns(mockBooks);
 
-            var bookService = new BookService(mockBookRepository.Object);
+            var mockLogger = new Mock<ILogger<BookService>>();
+
+            var bookService = new BookService(mockLogger.Object,mockBookRepository.Object);
 
             // Act
             var result = bookService.GetAll();

@@ -1,12 +1,22 @@
 using MyBookLibrary.Models;
 using MyBookLibrary.Repositories;
 using MyBookLibrary.Services;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// Add logging with Serilog
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.File($"logs/log-{DateTime.Now:yyyy-MM-dd}.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Services.AddLogging(loggingBuilder =>
+{
+    loggingBuilder.AddSerilog(); 
+}); 
 
 // Register your repository interface and implementation
 builder.Services.AddSingleton<IBookRepository, BookRepository>(); // Register as singleton for simplicity, can be scoped or transient depending on requirements

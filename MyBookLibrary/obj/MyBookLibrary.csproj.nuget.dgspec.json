@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "R:\\Jitendra Resume\\Bupa\\BookLibrary\\MyBookLibrary\\MyBookLibrary.csproj": {}
+    "R:\\Jitendra Resume\\Bupa\\n\\BookProject\\MyBookLibrary\\MyBookLibrary.csproj": {}
   },
   "projects": {
-    "R:\\Jitendra Resume\\Bupa\\BookLibrary\\MyBookLibrary\\MyBookLibrary.csproj": {
+    "R:\\Jitendra Resume\\Bupa\\n\\BookProject\\MyBookLibrary\\MyBookLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "R:\\Jitendra Resume\\Bupa\\BookLibrary\\MyBookLibrary\\MyBookLibrary.csproj",
+        "projectUniqueName": "R:\\Jitendra Resume\\Bupa\\n\\BookProject\\MyBookLibrary\\MyBookLibrary.csproj",
         "projectName": "MyBookLibrary",
-        "projectPath": "R:\\Jitendra Resume\\Bupa\\BookLibrary\\MyBookLibrary\\MyBookLibrary.csproj",
+        "projectPath": "R:\\Jitendra Resume\\Bupa\\n\\BookProject\\MyBookLibrary\\MyBookLibrary.csproj",
         "packagesPath": "C:\\Users\\jitus\\.nuget\\packages\\",
-        "outputPath": "R:\\Jitendra Resume\\Bupa\\BookLibrary\\MyBookLibrary\\obj\\",
+        "outputPath": "R:\\Jitendra Resume\\Bupa\\n\\BookProject\\MyBookLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,18 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

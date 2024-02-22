@@ -1,4 +1,5 @@
 ﻿using MyBookLibrary.Models;
+using MyBookLibrary.Services;
 using Newtonsoft.Json;
 
 namespace MyBookLibrary.Repositories
@@ -7,29 +8,52 @@ namespace MyBookLibrary.Repositories
     {
         private List<Book> _books;
         private readonly DataSettings _dataSettings;
+        private readonly ILogger<BookService> _logger;
 
-        public BookRepository(DataSettings dataSettings)
+        public BookRepository(ILogger<BookService> logger, DataSettings dataSettings)
         {
+            _logger = logger;
             _dataSettings = dataSettings;
             _books = LoadBooksFromDataFile();
         }
 
         private List<Book> LoadBooksFromDataFile()
         {
-            string? filePath = _dataSettings.FilePath;
-            if (File.Exists(filePath))
+            try
             {
-                string jsonData = File.ReadAllText(filePath);
-                return JsonConvert.DeserializeObject<List<Book>>(jsonData) ?? new List<Book>();
+                _logger.LogInformation("LoadBooksFromDataFile executed");
+                string? filePath = _dataSettings.FilePath;
+                if (File.Exists(filePath))
+                {
+                    string jsonData = File.ReadAllText(filePath);
+                    return JsonConvert.DeserializeObject<List<Book>>(jsonData) ?? new List<Book>();
+                }
+                return new List<Book>();
             }
-            return new List<Book>();
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while loading data from file.");
+                throw;
+            }
+
+
         }
 
         private void SaveBooksToDataFile()
         {
-            string jsonData = JsonConvert.SerializeObject(_books);
-            string? filePath = _dataSettings.FilePath;
-            if (filePath != null) File.WriteAllText(filePath, jsonData);
+
+            try
+            {
+                _logger.LogInformation("SaveBooksToDataFile executed");
+                string jsonData = JsonConvert.SerializeObject(_books);
+                string? filePath = _dataSettings.FilePath;
+                if (filePath != null) File.WriteAllText(filePath, jsonData);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while saving data from file.");
+                throw;
+            }
         }
 
         public void Add(Book? book)

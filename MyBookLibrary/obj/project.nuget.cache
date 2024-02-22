@@ -1,10 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "pFxruKc25HrFpHOYLfRRLDPi5HSke0433r9lJh4s/yGLzO8Kwk37akmpdUO4uSLt7Otvp1P3dphSFzbO17cmYQ==",
+  "dgSpecHash": "8doHfrqkPDBh0Qcz+vl8olVx5Pkw0cm6g+XZ16Lcub0VLU0dIzWCY3SEIm45w4RNG6eCnj0pvbh2YUnuSAypJw==",
   "success": true,
-  "projectFilePath": "R:\\Jitendra Resume\\Bupa\\BookLibrary\\MyBookLibrary\\MyBookLibrary.csproj",
+  "projectFilePath": "R:\\Jitendra Resume\\Bupa\\n\\BookProject\\MyBookLibrary\\MyBookLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jitus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\jitus\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\serilog.extensions.logging\\8.0.0\\serilog.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\jitus\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
